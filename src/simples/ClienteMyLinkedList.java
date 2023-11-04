@@ -2,53 +2,39 @@ package simples;
 
 public class ClienteMyLinkedList {
 
-    public static void main1(String[] args) {
+    public static void main(String[] args) {
 
         // Creando lista enlazada | Con Enteros
         MyLinkedList lista = new MyLinkedList();
 
         // Preguntar si esta vacia
         //System.out.println("Lista Vacia?: " + lista.isEmpty());
-        
         // Agreando elementos a la lista
-        lista.insert(1);
-        lista.insert(2);
-        lista.insert(3);
-        lista.insert(4);
+        lista.add(1);
+        lista.add(2);
+        lista.add(3);
+        lista.add(4);
 
-        // Preguntar si esta vacia
-        //System.out.println("Lista Vacia?: " + lista.isEmpty());
-        
-        // Agregando elementos con insertFirst
-//        lista.insertFirst(1);
-//        lista.insertFirst(2);
-//        lista.insertFirst(3);
-//        lista.insertFirst(4);
-
-        // Agregando un nodo en una posicion deseada
-        lista.insertNodePosition(5, 4);
-
-        // Eliminar un nodo de la lista
-//        lista.remove(3);
-
-        // Eliminar un nodo de la lista (Por Posicion)
-//           lista.removeNodePosition(2);
-
-        // Eliminar un nodo de la lista por su contenido
-//        lista.remove(3);
-
-        // Metodos varios        
-//        System.out.println("Haz buscado a: " + lista.getNodePosition(2));
-        System.out.println("Cabeza es: " + lista.getHead());
-        System.out.println("Tail es: " + lista.getTail());
-        System.out.println("El size de la lista es de: " + lista.getListSize());
+        // Imprimiendo la lista
         lista.printList();
-//        System.out.println("\nLimpiando lista...");
-//        lista.clear();
 
+        // Metodos 
+//        System.out.print("Mayor: ");lista.imprimirMayor();
+//        lista.imprimirMayores(2);
+//        System.out.println("Size: " + lista.getSize());
+//        System.out.println("Head: " + lista.getHead());
+//        lista.removeAfterTwo(3);
+//        lista.printList();
+
+        // Se deja la estructura de un try-catch para manejar futuras excepciones
+//          try{
+//          System.out.println(lista.getNodePosition(2));
+//          }catch(Exception e){
+//              System.err.println("Nodo no valido");   
+//          }
     }
 
-    public static void main(String[] args) {
+    public static void main1(String[] args) {
 
         // Creando lista enlazada | Con String
         MyLinkedList lista = new MyLinkedList();
@@ -56,31 +42,12 @@ public class ClienteMyLinkedList {
         // Preguntar si esta vacia
 //        System.out.println("Lista Vacia?: " + lista.isEmpty());
         // Agreando elementos a la lista
-        lista.insert("Juan");
-        lista.insert("Diego");
-        lista.insert("Alex");
-        lista.insert("Romer");
+        lista.add("Juan");
+        lista.add("Diego");
+        lista.add("Alex");
+        lista.add("Romer");
 
-        // Agregando elementos con insertFirst
-//        lista.insertFirst("Messi");
-
-        // Preguntar si esta vacia
-//        System.out.println("Lista Vacia?: " + lista.isEmpty());
-
-        // Agregando un nodo en una posicion deseada
-        lista.insertNodePosition("Andree", 4);
-
-        // Eliminar un nodo de la lista
-        // lista.remove("Juan");
-        //lista.removeNodePosition(0);
-        
-        // Metodos varios
         lista.printList();
-        System.out.println("Cabeza es: " + lista.getHead());
-        System.out.println("Tail es: " + lista.getTail());
-        System.out.println("El size de la lista es de: " + lista.getListSize());
-        System.out.println("Haz buscado a: " + lista.getNodePosition(2));
-        
 
     }
 }
