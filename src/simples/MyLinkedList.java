@@ -797,7 +797,7 @@ public class MyLinkedList<E> {
     /**
      * Remueve un nodo de la lista de acuerdo a su posicion
      * 
-     * @param pos: Posicion del nodo a eliminar
+     * @param pos: Posicion del nodo a eliminarw
      */ 
     public void removePos(int pos) {
         // Se posiciona un apuntador en cabeza
