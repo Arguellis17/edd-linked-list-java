@@ -25,7 +25,7 @@ Una lista enlazada en la que el último nodo se conecta al primer nodo, formando
 
 ## Double Circular Linked List
 Combina las características de una lista enlazada doble y una lista enlazada circular. Cada nodo tiene enlaces al siguiente y al anterior, y el último nodo se conecta al primero, formando un bucle bidireccional.  
-[![Circular-linked-list-in-java.jpg](https://i.postimg.cc/nh8K8ct8/Circular-linked-list-in-java.jpg)](https://postimg.cc/8jHfMG5w)
+[![Circular-doubly-linked-list.webp](https://i.postimg.cc/XqfFKmsZ/Circular-doubly-linked-list.webp)](https://postimg.cc/m1rtBXfR)
 
   
 ## 🔑 Características Clave 🔑
