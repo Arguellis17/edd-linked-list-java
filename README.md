@@ -37,3 +37,4 @@ los enlaces entre los nodos.
 (enlaces a nodos previo y siguiente) y Circular Linked Lists (el último nodo se enlaza con el primero).  
 - Punteros: Nos permiten manipular las linked list de acuerdo a nuestras necesidades.  
 - Metodos: Una Linked List se compone por una clase llamada Node, posee como atrbuto el valor del nodo y su puntero. También, contiene métodos de suma importancia, como lo son los metodos de enlazar y obtener.
+- Generecidad: La capacidad de trabajar con diferentes tipos de datos en una Linked List. Permite almacenar y manipular elementos de tipos diversos, como enteros, cadenas u objetos, sin limitarse a un solo tipo de dato.
