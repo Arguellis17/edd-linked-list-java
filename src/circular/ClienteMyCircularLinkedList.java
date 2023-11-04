@@ -1,5 +1,15 @@
 package circular;
 
+/*
+¿Que es una Lista Circular?
+Una lista enlazada circular es una estructura de datos en la que el último nodo de la lista enlaza 
+con el primer nodo, formando así un bucle o ciclo. En otras palabras, el enlace del último nodo no 
+apunta a null, sino que se conecta al primer nodo de la lista. 
+
+Esto crea una estructura circular que puede facilitar algunas operaciones, como recorrer la lista 
+desde cualquier punto sin llegar al final. La lista enlazada circular puede ser simple o doble, 
+dependiendo de si cada nodo tiene uno o dos enlaces.
+*/
 public class ClienteMyCircularLinkedList {
 
     public static void main(String[] args) {
