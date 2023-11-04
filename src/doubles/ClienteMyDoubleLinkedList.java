@@ -1,13 +1,25 @@
 package doubles;
 
+/*
+¿Que es una Lista Simple Doble?
+Una lista enlazada doble es una estructura de datos similar a la lista enlazada simple, pero con 
+la adición de un enlace adicional en cada nodo que apunta al nodo anterior, además del enlace que 
+apunta al siguiente nodo.
+Esto permite la navegación en ambas direcciones: hacia adelante y hacia atrás a lo largo de la lista. 
+
+Gracias a esta característica, las listas enlazadas dobles facilitan la inserción y eliminación de
+elementos en cualquier posición, así como el acceso rápido a elementos tanto desde el principio como 
+desde el final de la lista.
+
+*/
 public class ClienteMyDoubleLinkedList {
 
     public static void main(String[] args) {
 
-        // Double Linked List de Enteros
+        // Creando Lista Enlazada | Con Integer
         MyDoubleLinkedList<Integer> listOne = new MyDoubleLinkedList<>();
 
-        // Agregando elementos
+        // Agregando elementos a la lista
         listOne.add(1);
         listOne.add(2);
         listOne.add(3);
@@ -51,7 +63,7 @@ public class ClienteMyDoubleLinkedList {
     
     public static void main3(String[] args) {
         
-        // Creando lista enlaza | Con Persona
+      // Creando lista enlaza | Con Persona
       MyDoubleLinkedList<Persona> lista = new MyDoubleLinkedList<>();
       
       // Agregando elementos a la lista
