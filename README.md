@@ -18,5 +18,4 @@ los enlaces entre los nodos.
 - Punteros: Nos permiten manipular las linked list de acuerdo a nuestras necesidades.  
 - Metodos: Una Linked List se compone por una clase llamada Node, posee como atrbuto el valor del nodo y su puntero. También, contiene métodos de suma importancia, como lo son los metodos de enlazar y obtener.
 
-> Pronto se cambiara todo este repositorio. Agregando la generecidad y el trato con objetos. Como el metodo compareTo y el metodo equals :).
 
