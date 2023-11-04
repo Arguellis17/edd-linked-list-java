@@ -1,3 +1,5 @@
+Este repositorio contiene material relacionado con las Linked Lists como ejemplificación del trayecto del curso de __Estructura de Datos__. Aquí encontrarás el funcionamiento de una Linked List, desde una simple hasta una doblemente circular. Se empleará la genericidad, la cual nos permite trabajar con objetos de tipo Integer, String y Object, evitando así limitarnos a un solo tipo de dato. Además, este repositorio se complementa con diversos métodos y comentarios para cada uno de ellos, lo que facilitará la comprensión de este fascinante tema. Te recomiendo seguir el código con lápiz y papel para comprenderlo visualmente :) ✏️📄📄
+
 # 🔗 Linked List 🔗
 Una lista enlazada es una lista que utiliza __nodos conectados__ para mejorar la eficiencia de las operaciones de agregar y eliminar.  
 Las Linked Lists (Listas Enlazadas) son estructuras de datos fundamentales en programación que permiten almacenar y organizar 
