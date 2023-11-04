@@ -1,5 +1,17 @@
 package cicular.doubles;
 
+/*
+¿Que es una Lista Circular Doble?
+Una lista enlazada doble circular es una estructura de datos en la que cada nodo tiene dos enlaces: 
+uno que apunta al siguiente nodo y otro que apunta al nodo anterior en la secuencia. 
+La característica adicional es que el último nodo de la lista enlaza con el primer nodo, 
+creando un bucle o ciclo. 
+
+Esta estructura permite la navegación en ambas direcciones (hacia adelante y hacia atrás) a lo largo 
+de la lista, y al ser circular, no tiene un nodo final clásico. Esto puede ser beneficioso en 
+situaciones en las que se necesitan operaciones cíclicas o repetitivas en la lista.
+
+*/
 public class ClienteMyDoubleCircularLinkedList {
 
     public static void main(String[] args) {
