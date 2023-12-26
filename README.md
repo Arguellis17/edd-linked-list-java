@@ -1,5 +1,3 @@
-> Este repositorio contiene material relacionado con las Linked Lists como ejemplificación del trayecto del curso de __Estructura de Datos__. Aquí encontrarás el funcionamiento de una Linked List, desde una simple hasta una doblemente circular. Se empleará la genericidad, la cual nos permite trabajar con objetos de tipo Integer, String y Object, evitando así limitarnos a un solo tipo de dato. Además, este repositorio se complementa con diversos métodos y comentarios para cada uno de ellos, lo que facilitará la comprensión de este fascinante tema. Te recomiendo seguir el código con lápiz y papel para comprenderlo visualmente :) ✏️
-
 # 🔗 ¿Qué es una Linked List? 🔗
 Una lista enlazada es una lista que utiliza __nodos conectados__ para mejorar la eficiencia de las operaciones de agregar y eliminar.  
 Las Linked Lists (Listas Enlazadas) son estructuras de datos fundamentales en programación que permiten almacenar y organizar 
@@ -28,13 +26,24 @@ Combina las características de una lista enlazada doble y una lista enlazada ci
 [![Circular-doubly-linked-list.webp](https://i.postimg.cc/XqfFKmsZ/Circular-doubly-linked-list.webp)](https://postimg.cc/m1rtBXfR)
 
   
-## 🔑 Características Clave 🔑
-- Nodos enlazados: Los elementos se almacenan como nodos, cada uno conteniendo un valor y una referencia al siguiente nodo en la lista.  
-- Flexibilidad: Las Linked Lists pueden crecer y encogerse dinámicamente según sea necesario, evitando el desperdicio de memoria.  
-- Inserción/eliminación eficiente: Agregar o eliminar elementos en cualquier posición de la lista es eficiente, aunque requiere ajustar 
-los enlaces entre los nodos.  
-- Tipos: Existen varios tipos de Linked Lists, como Singly Linked Lists (un enlace por nodo), Doubly Linked Lists 
-(enlaces a nodos previo y siguiente) y Circular Linked Lists (el último nodo se enlaza con el primero).  
-- Punteros: Nos permiten manipular las linked list de acuerdo a nuestras necesidades.  
-- Metodos: Una Linked List se compone por una clase llamada Node, posee como atrbuto el valor del nodo y su puntero. También, contiene métodos de suma importancia, como lo son los metodos de enlazar y obtener.
-- Generecidad: La capacidad de trabajar con diferentes tipos de datos en una Linked List. Permite almacenar y manipular elementos de tipos diversos, como enteros, cadenas u objetos, sin limitarse a un solo tipo de dato.
+## 🔑 Características clave  🔑
+<table>
+<tr>
+<th>Nodos enlazados</th>
+<th>Flexibilidad</th>
+<th>Inserción/eliminación eficiente</th>
+<th>Tipos</th>
+<th>Generecidad</th>
+</tr>
+<tr>
+<td>Los elementos se almacenan como nodos, cada uno conteniendo un valor y una referencia al siguiente nodo en la lista</td>
+<td>Las Linked Lists pueden crecer y encogerse dinámicamente según sea necesario, evitando el desperdicio de memoria </td>
+<td>Agregar o eliminar elementos en cualquier posición de la lista es eficiente, aunque requiere ajustar 
+los enlaces entre los nodos. (Uso de next y set)</td>
+<td>Existen varios tipos de Linked Lists, como Singly Linked Lists (un enlace por nodo), Doubly Linked Lists 
+(enlaces a nodos previo y siguiente) y Circular Linked Lists (el último nodo se enlaza con el primero)</td>
+<td>La capacidad de trabajar con diferentes tipos de datos en una Linked List. Permite almacenar y manipular elementos de tipos diversos, como enteros, cadenas u objetos, sin limitarse a un solo tipo de dato</td>
+</tr>
+</table>
+
+> Este repositorio contiene material relacionado con las Linked Lists como ejemplificación del trayecto del curso de __Estructura de Datos__. Aquí encontrarás el funcionamiento de una Linked List, desde una simple hasta una doblemente circular. Se empleará la genericidad, la cual nos permite trabajar con objetos de tipo Integer, String y Object, evitando así limitarnos a un solo tipo de dato. Además, este repositorio se complementa con diversos métodos y comentarios para cada uno de ellos, lo que facilitará la comprensión de este fascinante tema. Te recomiendo seguir el código con lápiz y papel para comprenderlo visualmente :) ✏️
